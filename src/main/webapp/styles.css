@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b5a2b0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #800080;
+    color: white;
+}
+
+button {
+    padding: 8px 16px;
+    margin: 5px;
+    background-color: #8000ff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #800080;
+}
